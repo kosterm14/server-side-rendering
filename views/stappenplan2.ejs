@@ -31,9 +31,11 @@
             <% methods.forEach(method=> { %>
                 <% method.steps.forEach(step=> { %>
                     <% if (step.title=="Stap 1 - Uitgangspunten definiëren" ) {%>
-                        <h2 class="tag">
-                            <%= step.title %>
-                        </h2>
+                        <a href="/stappenplan">
+                            <h2 class="tag-hollow">
+                                <%= step.title %>
+                            </h2>
+                        </a>
                         <% } %>
                             <% }) %>
                                 <% }) %>
@@ -43,11 +45,9 @@
             <% methods.forEach(method=> { %>
                 <% method.steps.forEach(step=> { %>
                     <% if (step.title=="Stap 2 - Structureren" ) {%>
-                        <a href="/stappenplan2">
-                            <h2 class="tag-hollow">
-                                <%= step.title %>
-                            </h2>
-                        </a>
+                        <h2 class="tag">
+                            <%= step.title %>
+                        </h2>
                         <% } %>
                             <% }) %>
                                 <% }) %>
@@ -72,7 +72,7 @@
         <section>
             <% methods.forEach(method=> { %>
                 <% method.steps.forEach(step=> { %>
-                    <% if (step.title=="Stap 1 - Uitgangspunten definiëren" ) {%>
+                    <% if (step.title=="Stap 2 - Structureren" ) {%>
                         <h3 class="description">
                             <%- step.description.html %>
                         </h3>
@@ -81,7 +81,7 @@
                                 <% }) %>
         </section>
 
-        <img class="steps" src="assets/stap1.png" alt="">
+        <img class="steps" src="assets/stap2.png" alt="">
 
     </section>
     </main>

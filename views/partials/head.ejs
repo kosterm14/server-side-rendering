@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 
 <head>
   <meta charset="UTF-8">
@@ -15,36 +15,45 @@
   <script src="scripts/script.js" defer></script>
 </head>
 
-<header>
+<body>
+  <header>
+    <section>
+      <img class="logo" src="assets/logo.svg" alt="">
+    </section>
+
+    <section class="navheader">
+      <nav>
+        <ul>
+          <li>
+            Over
+          </li>
+          <li>
+            Blog
+          </li>
+          <li>
+            <img src="assets/account.svg" alt="">
+          </li>
+        </ul>
+      </nav>
+    </section>
+
+  </header>
+
   <section>
-    <img class="logo" src="assets/logo.svg" alt="">
+    <p class="line">
+      <img class="arrows" src="assets/button.png" alt="">
+      Overzicht <strong>tekenmethodes</strong>
+    </p>
   </section>
 
-  <section class="navheader">
-    <nav>
-      <ul>
-        <li>
-          <a href="">Over</a>
-        </li>
-        <li>
-          <a href="">Blog</a>
-        </li>
-        <li>
-          <a href=""><img src="assets/account.svg" alt=""></a>
-        </li>
-      </ul>
-    </nav>
-  </section>
-
-</header>
-
-<section>
-  <p>
-    <img class="arrows" src="assets/button.png" alt="">
-    Overzicht <strong>tekenmethodes</strong>
-  </p>
-</section>
-
-<main>
-  <section class="navmain">
-    <h1>Roadmap</h1>
+  <main>
+    <section class="navmain">
+      <% methods.forEach(method=> { %>
+        <% if (method.slug=="roadmap" ) {%>
+          <section>
+            <h1>
+              <%= method.title %>
+            </h1>
+          </section>
+          <% } %>
+            <% }) %>
