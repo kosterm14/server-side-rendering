@@ -1,7 +1,7 @@
 // Importeer express uit de node_modules map
 import express, { response } from 'express'
 
-const url = 'https://api.visualthinking.fdnd.nl/api/v1/methods'
+const url = 'https://api.visualthinking.fdnd.nl/api/v1/methods?first=1000'
 const data = await fetch(url).then((response) => response.json())
 
 // Maak een nieuwe express app aan

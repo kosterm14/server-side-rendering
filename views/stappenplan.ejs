@@ -42,7 +42,7 @@
         <section class="tags-s">
             <% methods.forEach(method=> { %>
                 <% method.steps.forEach(step=> { %>
-                    <% if (step.title=="Stap 2 - Structureren" ) {%>
+                    <% if (step.title=="Stap 2 - Structureren" && method.slug=="roadmap" ) {%>
                         <a href="/stappenplan2">
                             <h2 class="tag-hollow">
                                 <%= step.title %>
