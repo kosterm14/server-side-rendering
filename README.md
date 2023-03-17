@@ -1,7 +1,4 @@
-> _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
-
-# Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+# Detailpagina Visual Thinking
 
 ## Inhoudsopgave
 
@@ -13,19 +10,36 @@
   * [Licentie](#licentie)
 
 ## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+
+De opdracht is een user story uitwerken op basis van dynamische data uit een API. Vertrekpunt is een overzichtspagina van de belangrijkste content met verwijzingen naar detailpagina's.
+
+Mijn user story is: #23 Als docent wil ik details van een werkvorm kunnen bekijken, zodat ik kan beoordelen of die bij een les past.
 
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
+De pagina is gemaakt met een API database. Om met die database een werkende website te maken heb ik met node en express gewerkt.
+
+Gebruikte talen: 
+- EJS
+- JS
+- CSS
 
 ## Installatie
+Npm install + npm install express.
 
 ## Gebruik
+Open in visual studio de terminal met de toetscombinatie
+
+![image](https://user-images.githubusercontent.com/61830362/225873302-20945f18-88e9-4598-a579-a88c37732492.png)
+
+Type "npm start" om de localhost:8000 link te krijgen om je website te bekijken.
 
 ## Bronnen
+https://github.com/fdnd-agency/visual-thinking
+
+https://www.youtube.com/watch?v=VYsVOamdB0g&ab_channel=KevinPowell
+
+https://www.youtube.com/watch?v=gBzsE0oieio&ab_channel=KevinPowell
 
 ## Licentie
-
 This project is licensed under the terms of the [MIT license](./LICENSE).
