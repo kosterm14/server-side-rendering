@@ -1,4 +1,5 @@
 # Detailpagina Visual Thinking
+<img src= "https://user-images.githubusercontent.com/61830362/230781494-be462aa5-ab9e-428a-8641-e540d77b6dd9.png" width=400px>
 
 ## Inhoudsopgave
 
@@ -20,6 +21,7 @@ Mijn user story is: #23 Als docent wil ik details van een werkvorm kunnen bekijk
 De pagina is gemaakt met een API database. Om met die database een werkende website te maken heb ik met node en express gewerkt.
 
 Gebruikte talen: 
+- HTML
 - EJS
 - JS
 - CSS
